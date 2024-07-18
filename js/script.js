@@ -27,7 +27,7 @@ function LoadProducts(url){
         {
             var div = document.createElement("div");
             div.className="card m-2 p-2";
-            div.style.width="230px";
+            div.style.width="290px";
             div.innerHTML = `
              <img src=${product.image} height="150" class="card-img-top">
              <div class="card-header" style="height:160px">
